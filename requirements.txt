@@ -1,8 +1,5 @@
 numpy
 opencv-python
 mediapipe
-torch
-torchvision
 pillow
-rembg
-streamlit
+gradio
