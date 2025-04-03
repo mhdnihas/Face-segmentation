@@ -5,7 +5,7 @@ import gradio as gr
 from PIL import Image
 import os
 
-IMAGE_DIR = "/home/muhammed/Desktop/Face Segmentation"
+IMAGE_DIR = os.path.join(os.path.dirname(__file__), "static")
 DEFAULT_IMAGES = [
     os.path.join(IMAGE_DIR, "input_image1.png"),
     os.path.join(IMAGE_DIR, "input_image2.png")
